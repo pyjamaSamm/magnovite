@@ -1,39 +1,3 @@
-.events {
-	width:100%;
-	height:100vh;
-	display: flex;
-	justify-content: center;
-	scroll-snap-align: start;
-}
-.all-events {
-	scroll-snap-type: y mandatory;
-	overflow-y: scroll;
-	height:300%;
-}
-.half-events {
-	width:50%;
-	height:100vh;
-	overflow: hidden;
-}
-.half-events-scroll {
-	width: 100%;
-	height: 100%;
-}
-.aqua {
-	background-color: aqua;
-}
-.red {
-	background-color: red;
-}
-.black {
-	background-color: black;
-}
-.blue {
-	background-color: blue;
-}
-.green {
-	background-color: green;
-}
 body {
 	width: 100vw;
 	height: 100vh;
