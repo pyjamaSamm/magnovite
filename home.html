@@ -27,14 +27,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&family=Montserrat:wght@300&family=Poiret+One&display=swap"
         rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        
-        <title>Home</title>
+
+    <title>Home</title>
 
 </head>
 
@@ -43,7 +43,8 @@
 
     <div id="large-header" class="large-header">
         <nav class="navbar navbar-expand-md">
-            <a class="navbar-brand" href="#"><img src="christ_logo.png" style="height: 70px; width: 180px;" class="d-inline-block align-text-top"></a>
+            <a class="navbar-brand" href="#"><img src="christ_logo.png"
+                    style="height: 70px; width: 220px; padding-left: 30px;" class="d-inline-block align-text-top"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon"></span> -->
@@ -54,7 +55,7 @@
                     <div class="bar3" style="background-color: #D8F3DC;"></div>
                 </div>
             </button>
-            
+
             <div class="collapse navbar-collapse navBar" id="navbarTogglerDemo01"
                 style="position: absolute; margin-top: 20px;">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -68,7 +69,7 @@
                         <a class="nav-link" href="#">Registration</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
+                        <a class="nav-link" href="#eventsdiv">Events</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Gallery</a>
@@ -84,7 +85,7 @@
         <canvas id="demo-canvas"></canvas>
         <h1 class="main-title" style="text-shadow: 10px black;">Magnovite</span></h1>
     </div>
-    <div class="gifContents" style="height: 100vh;">
+    <div class="gifContents">
         <center>
             <div class="videoEffect">
                 <img src="mag.gif" alt="christ gif" class="gif">
@@ -96,153 +97,196 @@
         </center>
 
     </div>
-    <div class="contents" style="margin-top: -18px;">
-        <!-- <div class="magnoContent">
+    <div>
+        <div class="contents" style="margin-top: -18px;">
+            <!-- <div class="magnoContent">
             <h1><span style="color: #95D5B2;">Magnovite&nbsp;</span>(Kengeri&nbsp;Campus)</h1>
         </div> -->
-        <div class="magnoP">
-            <p><span><span style="color:#95D5B2 ;">MAGNOVITE</span> is the flagship annual fest organized by CHRIST
-                    (Deemed To Be University), Kengeri
-                    Campus. It returns this year with its 12th edition, bringing back its unfading charm.<br><br>
-                    It has been a legacy of the Kengeri campus, integrating 6 deanery fests into one mega-fest
-                    filled with anticipation and zeal. Our aim this year is to make it bigger than ever with an expected
-                    footfall of over 4600+ students on campus and over 45+ events.
-                </span></p>
+            <div class="magnoP">
+                <p class="contentP"><span><span style="color:#95D5B2 ;">MAGNOVITE</span> is the flagship annual fest
+                        organized by CHRIST
+                        (Deemed To Be University), Kengeri
+                        Campus. It returns this year with its 12th edition, bringing back its unfading charm.<br><br>
+                        It has been a legacy of the Kengeri campus, integrating 6 deanery fests into one mega-fest
+                        filled with anticipation and zeal. Our aim this year is to make it bigger than ever with an
+                        expected
+                        footfall of over 4600+ students on campus and over 45+ events.
+                    </span></p>
+            </div>
+        </div>
+        <div id="animated-background" class="animated-background animated-background--red" data-color="green">
+            <canvas id="can0" width="100%" height="100vh">
+            </canvas>
         </div>
     </div>
-    <div id="animated-background" class="animated-background animated-background--red" data-color="green">
-        <canvas id="can0" width="100%" height="600vh">
-        </canvas>
-    </div>
     <center>
-    <div class="cardDiv">
-        <h2 style="color: white;">Events</h2>
-
-
-        <ul class="cards">
-            <li>
-                <a href="" class="card">
-                    <img src="https://media2.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif?cid=ecf05e47gdalrvqpp202sbzx80rzbdowxttjz8da4fg9i3cs&rid=giphy.gif&ct=g" class="card__image" alt="" />
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                                <path />
-                            </svg>
-                            <div class="card__header-text">
-                                <h3 class="card__title">Technical Events</h3>
+        <div class="lowerComponent">
+            <div class="cardDiv" id="eventsdiv">
+                <h2 style="color: white;">Events</h2>
+                <ul class="cards">
+                    <li>
+                        <a href="" class="card">
+                            <img src="https://media2.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif?cid=ecf05e47gdalrvqpp202sbzx80rzbdowxttjz8da4fg9i3cs&rid=giphy.gif&ct=g"
+                                class="card__image" alt="" />
+                            <div class="card__overlay">
+                                <div class="card__header">
+                                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                        <path />
+                                    </svg>
+                                    <div class="card__header-text">
+                                        <h3 class="card__title">Technical Events</h3>
+                                    </div>
+                                </div>
+                                <p class="card__description">School of Engineering and Technology</p>
                             </div>
-                        </div>
-                        <p class="card__description">School of Engineering and Technology</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="" class="card">
-                    <img src="https://media4.giphy.com/media/l43OIxOfy2O1h2X711/giphy.gif?cid=ecf05e471sk9nxa127nb39dozuhug0jpaq02niqkhtqcz974&rid=giphy.gif&ct=g" class="card__image" alt="" />
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                                <path />
-                            </svg>
-                            <div class="card__header-text">
-                                <h3 class="card__title">Design Events</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="card">
+                            <img src="https://media4.giphy.com/media/l43OIxOfy2O1h2X711/giphy.gif?cid=ecf05e471sk9nxa127nb39dozuhug0jpaq02niqkhtqcz974&rid=giphy.gif&ct=g"
+                                class="card__image" alt="" />
+                            <div class="card__overlay">
+                                <div class="card__header">
+                                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                        <path />
+                                    </svg>
+                                    <div class="card__header-text">
+                                        <h3 class="card__title">Design Events</h3>
+                                    </div>
+                                </div>
+                                <p class="card__description">School of Architecture</p>
                             </div>
-                        </div>
-                        <p class="card__description">School of Architecture</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="" class="card">
-                    <img src="https://media3.giphy.com/media/ROvT19V4hygmI/giphy.gif?cid=ecf05e47xh3ul0pkbkusm47fb4own3kehym5sarc6aud8tct&rid=giphy.gif&ct=g" class="card__image" alt="" />
-                    <!-- <img src="https://media3.giphy.com/media/LZ2WRdQu8udNPSZxbg/giphy.gif?cid=ecf05e47qx8wxhjb5urioa0jh9u4tlowjsjz56r1i13712hy&rid=giphy.gif&ct=g" class="card__image" alt="" /> -->
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                                <path />
-                            </svg>
-                            <div class="card__header-text">
-                                <h3 class="card__title">Managerial Events</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="card">
+                            <img src="https://media3.giphy.com/media/ROvT19V4hygmI/giphy.gif?cid=ecf05e47xh3ul0pkbkusm47fb4own3kehym5sarc6aud8tct&rid=giphy.gif&ct=g"
+                                class="card__image" alt="" />
+                            <!-- <img src="https://media3.giphy.com/media/LZ2WRdQu8udNPSZxbg/giphy.gif?cid=ecf05e47qx8wxhjb5urioa0jh9u4tlowjsjz56r1i13712hy&rid=giphy.gif&ct=g" class="card__image" alt="" /> -->
+                            <div class="card__overlay">
+                                <div class="card__header">
+                                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                        <path />
+                                    </svg>
+                                    <div class="card__header-text">
+                                        <h3 class="card__title">Managerial Events</h3>
 
+                                    </div>
+                                </div>
+                                <p class="card__description">School of Business and Management</p>
                             </div>
-                        </div>
-                        <p class="card__description">School of Business and Management</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="" class="card">
-                    <img src="https://media4.giphy.com/media/aohvgsGTzqqYg/giphy.gif?cid=ecf05e47fywv401onr6rbq3o127vavtb7ab5fi0xe4wyw2ar&rid=giphy.gif&ct=g" class="card__image spl" alt="" />
-                    <!-- <img src="https://media4.giphy.com/media/LBONvar1fNhM8XyaxH/giphy.gif?cid=ecf05e47450rb0fbanmldfa474zkri9srl6chsar7g3d9g00&rid=giphy.gif&ct=g" class="card__image" alt="" /> -->
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                                <path />
-                            </svg>
-                            <div class="card__header-text">
-                                <h3 class="card__title">Psychology Events</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="card">
+                            <img src="https://media4.giphy.com/media/aohvgsGTzqqYg/giphy.gif?cid=ecf05e47fywv401onr6rbq3o127vavtb7ab5fi0xe4wyw2ar&rid=giphy.gif&ct=g"
+                                class="card__image spl" alt="" />
+                            <!-- <img src="https://media4.giphy.com/media/LBONvar1fNhM8XyaxH/giphy.gif?cid=ecf05e47450rb0fbanmldfa474zkri9srl6chsar7g3d9g00&rid=giphy.gif&ct=g" class="card__image" alt="" /> -->
+                            <div class="card__overlay">
+                                <div class="card__header">
+                                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                        <path />
+                                    </svg>
+                                    <div class="card__header-text">
+                                        <h3 class="card__title">Psychology Events</h3>
+                                    </div>
+                                </div>
+                                <p class="card__description">School of Social Science</p>
                             </div>
-                        </div>
-                        <p class="card__description">School of Social Science</p>
-                    </div>
-                </a>
-            </li>
-            <li>
-                <a href="" class="card">
-                    <img src="https://media4.giphy.com/media/3Hz6PIHppEkquEiSBt/giphy.gif?cid=ecf05e47wqxu3shaa5cowgv6263yap8bkkq1z2hk3v38i0bv&rid=giphy.gif&ct=g" class="card__image" alt="" />
-                    <!-- <img src="https://media1.giphy.com/media/iFL8qJ5DVusJG/giphy.gif?cid=ecf05e47cawq6evwgh88ra8z83x5tjbbv4nplwv6cr5da33c&rid=giphy.gif&ct=g" class="card__image" alt="" /> -->
-                    <div class="card__overlay">
-                        <div class="card__header">
-                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
-                                <path />
-                            </svg>
-                            <div class="card__header-text">
-                                <h3 class="card__title">Cultural Events</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="card">
+                            <img src="https://media4.giphy.com/media/3Hz6PIHppEkquEiSBt/giphy.gif?cid=ecf05e47wqxu3shaa5cowgv6263yap8bkkq1z2hk3v38i0bv&rid=giphy.gif&ct=g"
+                                class="card__image" alt="" />
+                            <!-- <img src="https://media1.giphy.com/media/iFL8qJ5DVusJG/giphy.gif?cid=ecf05e47cawq6evwgh88ra8z83x5tjbbv4nplwv6cr5da33c&rid=giphy.gif&ct=g" class="card__image" alt="" /> -->
+                            <div class="card__overlay">
+                                <div class="card__header">
+                                    <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
+                                        <path />
+                                    </svg>
+                                    <div class="card__header-text">
+                                        <h3 class="card__title">Cultural Events</h3>
+                                    </div>
+                                </div>
+                                <p class="card__description">Inter-department</p>
                             </div>
-                        </div>
-                        <p class="card__description">Inter-department</p>
-                    </div>
-                </a>
-            </li>
-        </ul>
-
-
-    </div>
-</center>
-<div>
-    <!-- footer starts here -->
-    <div class="footer-basic">
-        <footer>
-            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
-                        class="icon ion-social-facebook"></i></a></div>
-            <div class="footer-content">
-               
-
-            <!-- Copyright -->
-            <div class=" footer-copyright text-center py-3" style="color: #FDFEFF;">©
-                <a href="#" style="text-decoration: none; color: #FDFEFF;">magnovite.com</a>
-                <span style="text-decoration: none; color: #FDFEFF;  font-size: 16px;"></span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <!-- Copyright -->
+    </center>
+    <div>
+        <section>
+
+            <div class="micro-slider">
+                <!-- Change the image link as per the requirement-->
+                <img class="slider-item s1"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/images%2Fimages%2FDEW03843-min.JPG?alt=media&token=b40cdf4d-87d3-4ceb-95e6-ec7665736b6a"></img>
+                <img class="slider-item s1"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/images%2Fimages%2FIMG_1078-min.JPG?alt=media&token=0ca63671-2e7b-46c8-acae-2753861caf7d"></img>
+                <img class="slider-item s1"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/images%2Fimages%2FIMG_1109-min.JPG?alt=media&token=90c168f9-67a3-4d03-bcb7-0d529f7ecae8"></img>
+                <img class="slider-item s1"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/images%2Fimages%2FIMG_1149-min.JPG?alt=media&token=4f0b5ab8-6382-4cd6-a02a-3b634b299119"></img>
+                <img class="slider-item s1"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/images%2Fimages%2FIMG_1190-min.JPG?alt=media&token=67171fb0-3ae7-4d85-9c79-1e89c2717f49"></img>
+                <img class="slider-item s1"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/images%2Fimages%2FIMG_1191-min.JPG?alt=media&token=7d2f0362-d1ca-4380-858e-9f1d29fa86df"></img>
+                <img class="slider-item s1"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/images%2Fimages%2FDEW02976-min.JPG?alt=media&token=f4cfd11b-9ec8-409b-8409-20931450d695"></img>
+                <img class="slider-item s1"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/images%2Fimages%2FIMG_3594-min.JPG?alt=media&token=b5823c7d-48bf-464d-bc5e-6cbb17517df8"></img>
+                <img class="slider-item s1"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/images%2Fimages%2FDEW00672-min.JPG?alt=media&token=3dda35d0-ac62-4e92-8d66-c490e35bf8d2"></img>
+                <img class="slider-item s1"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/images%2Fimages%2F2%20Magnovite%202020-min.JPG?alt=media&token=e6a20fae-70ea-4971-ab67-ca05fa0101e1"></img>
+
+
+            </div>
+        </section>
     </div>
-    </footer>
-    </div>
+
+    </center>
+    <div>
+        <!-- footer starts here -->
+        <div class="footer-basic">
+            <footer>
+                <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i
+                            class="icon ion-social-facebook"></i></a></div>
+                <div class="footer-content">
 
 
-    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-    
-
-
-
+                    <!-- Copyright -->
+                    <div class=" footer-copyright text-center py-3" style="color: #FDFEFF;">©
+                        <a href="#" style="text-decoration: none; color: #FDFEFF;">magnovite.com</a>
+                        <span style="text-decoration: none; color: #FDFEFF;  font-size: 16px;"></span>
+                    </div>
+                    <!-- Copyright -->
+                </div>
+            </footer>
+        </div>
         <script>
             function myFunction(x) {
                 x.classList.toggle("change");
             }
         </script>
+
+        <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
         <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
         <script src="home.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-    <script src="home.js"></script>
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+            }
+        </script>
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+        <script src="home.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+        <script src="home.js"></script>
 </body>
 
 </html>
