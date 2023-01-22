@@ -247,6 +247,9 @@ p span {
 .image-events {
 	width: 200px;
 	height: 200px;
+	position: absolute;
+	left: 37%;
+	top: 40%;
 	/* margin-bottom: 20px; */
 }
 .scroll-data {
