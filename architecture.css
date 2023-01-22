@@ -166,9 +166,8 @@ p span {
 	margin: 0;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
-	z-index: 2;
 }
 .half2 {
 	width: 50vw;
@@ -177,7 +176,6 @@ p span {
 	overflow-y: scroll;
 	padding: 0;
 	margin: 0;
-	z-index: 2;
 }
 .scroll1 {
 	width: 100%;
@@ -270,58 +268,6 @@ p span {
 	padding-top: 7rem;
 
 }
-.scroll8 {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
-	scroll-snap-align: start;
-	padding-left: 5rem;
-	padding-right: 5rem;
-	padding-top: 7rem;
-
-}
-.scroll9 {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
-	scroll-snap-align: start;
-	padding-left: 5rem;
-	padding-right: 5rem;
-	padding-top: 7rem;
-
-}
-.scroll10 {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
-	scroll-snap-align: start;
-	padding-left: 5rem;
-	padding-right: 5rem;
-	padding-top: 7rem;
-
-}
-.scroll11 {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
-	scroll-snap-align: start;
-	padding-left: 5rem;
-	padding-right: 5rem;
-	padding-top: 7rem;
-
-}
 ::-webkit-scrollbar {
 	width: 15px;
   }
@@ -347,13 +293,13 @@ p span {
 	
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 	text-align: center;
 }
 .events-main-heading {
 	font-size: 60px;
-	width:50%;
+	width:100%;
 
 }
 .white-color {
@@ -389,9 +335,4 @@ p span {
 }
 .displayoff {
 	display: none;
-}
-.background-image {
-	height: 86vh;
-	position: absolute;
-	z-index: 1;
 }
