@@ -534,3 +534,64 @@ a:visited {
     height: 16px;
     width: 16px;
 }
+
+
+/* footer css starts here */
+
+.footer-basic {
+    padding: 10px 0;
+    background-color: black;
+    letter-spacing: 0.75px;
+    color: #52B788;
+    border-radius: 5px;
+    font-family: Roboto;
+}
+
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+    /* border-color: #FF42A2; */
+    border-color: #52B788;
+
+}
+
+/* .footer-basic .social>a:hover { */
+    /* color: #FFC0CB;
+    background-color: #FF42A2; */
+    /* color: rgb(241, 206, 206); */
+    /* color: black;
+    background-color: #52B788;
+
+} */
+
+
+.footer-content {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
