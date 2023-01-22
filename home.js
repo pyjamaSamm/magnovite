@@ -77,17 +77,17 @@
   }
 
   function mouseMove(e) {
-    var posx = posy = 0;
-    if (e.pageX || e.pageY) {
-      posx = e.pageX;
-      posy = e.pageY;
-    }
-    else if (e.clientX || e.clientY) {
-      posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
-      posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
-    }
-    target.x = posx;
-    target.y = posy;
+    // var posx = posy = 0;
+    // if (e.pageX || e.pageY) {
+    //   posx = e.pageX;
+    //   posy = e.pageY;
+    // }
+    // else if (e.clientX || e.clientY) {
+    //   posx = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+    //   posy = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+    // }
+    // target.x = posx;
+    // target.y = posy;
   }
 
   function scrollCheck() {
@@ -116,15 +116,41 @@
       ctx.clearRect(0, 0, width, height);
       for (var i in points) {
         // detect points in range
+        // if (Math.abs(getDistance(target, points[i])) < 2000) {
+        //   points[i].active = 0.4;
+        //   points[i].circle.active = 0.006;
+        // } else 
         if (Math.abs(getDistance(target, points[i])) < 4000) {
-          points[i].active = 0.3;
-          points[i].circle.active = 0.6;
+          if(window.innerWidth>=1600){
+            points[i].active = 0.4;
+            points[i].circle.active = 0.9;
+          }
+          else{
+            points[i].active = 0.3;
+            points[i].circle.active = 0.6;
+          }
         } else if (Math.abs(getDistance(target, points[i])) < 20000) {
-          points[i].active = 0.1;
-          points[i].circle.active = 0.3;
+          if(window.innerWidth>=1600){
+            points[i].active = 0.2;
+            points[i].circle.active = 0.9;
+          }else{
+            points[i].active = 0.1;
+            points[i].circle.active = 0.3;
+          }
         } else if (Math.abs(getDistance(target, points[i])) < 40000) {
-          points[i].active = 0.02;
-          points[i].circle.active = 0.1;
+          if (window.innerWidth >= 1600) {
+            points[i].active = 0.09;
+            points[i].circle.active = 0.1;
+          }
+          else {
+            points[i].active = 0.02;
+            points[i].circle.active = 0.1;
+          }
+        } else if (Math.abs(getDistance(target, points[i])) < 80000) {
+          if (window.innerWidth >= 1600) {
+            points[i].active = 0.1;
+            points[i].circle.active = 1;
+          }
         } else {
           points[i].active = 0;
           points[i].circle.active = 0;
@@ -210,6 +236,7 @@
       } else {
         // colorRange = ['rgba(245, 245, 245, alp)', 'rgba(229, 229, 229, alp)'];
         // strokeColor = 'rgba(245,245,245, 0.5)';
+        // colorRange = ['rgba(116, 198, 157, alp)', 'rgba(0, 0, 0, alp)'];
         colorRange = ['rgba(8, 28, 21, alp)', 'rgba(0, 0, 0, alp)'];
         strokeColor = 'rgba(216, 243, 220, 1)';
         //strokeColor = 'rgba(64,145,108, 1)';
@@ -253,7 +280,7 @@
 
         var backColor;
         if (colorToUse === 'green') {
-          backColor = 'rgba(0, 0, 0, 0.9)'; 
+          backColor = 'rgba(0, 0, 0, 0.9)';
           //backColor = 'rgba(232, 28, 47, 0.9)';
         }
         else {
