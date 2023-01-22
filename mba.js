@@ -4,7 +4,9 @@ const img1 = document.querySelector('.img1');
 const img2 = document.querySelector('.img2');
 const half2 = document.querySelector('.half2');
 
-
+scroll1.onmouseover = function() {
+    img1.classList.remove("displayoff");
+}
 scroll2.onmouseover = function() {
     img1.classList.add("displayoff");
 }
