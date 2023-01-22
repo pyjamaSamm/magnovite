@@ -1,21 +1,18 @@
-// const scroll1 = document.querySelector('.scroll1')
-// const scroll2 = document.querySelector('.scroll2')
-// const img1 = document.querySelector('.img1');
-// const img2 = document.querySelector('.img2');
-// const half2 = document.querySelector('.half2');
+const scroll1 = document.querySelector('.scroll1')
+const scroll2 = document.querySelector('.scroll2')
+const img1 = document.querySelector('.img1');
+const img2 = document.querySelector('.img2');
+const half2 = document.querySelector('.half2');
 
-// scroll2.onmouseover = function() {
-    
-//     img2.classList.remove("displayoff");
-//     img2.classList.remove("displayon");
 
-// }
+scroll2.onmouseover = function() {
+    img1.classList.add("displayoff");
+}
 
 // half2.addEventListener("scroll", (event) => {
-    
+
 //     console.log(getOffset(img2).top)
 // })
-
 
 // console.log(getOffset(img2).top)
 // function getOffset( el ) {
@@ -28,5 +25,3 @@
 //     }
 //     return { top: _y, left: _x };
 // }
-
-
