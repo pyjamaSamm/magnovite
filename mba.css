@@ -347,7 +347,7 @@ p span {
 	
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	text-align: center;
 }
@@ -367,8 +367,8 @@ p span {
 	width: 200px;
 	height: 200px;
 	position: absolute;
-	left: 37%;
-	top: 40%;
+	left: 33%;
+	top: 37%;
 	/* margin-bottom: 20px; */
 }
 .scroll-data {
@@ -382,6 +382,7 @@ p span {
 .para-events {
 	width: 100%;
 	/* margin-left: 50px; */
+	text-align: justify;
 }
 .displayon {
 	display: block;

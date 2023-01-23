@@ -1179,3 +1179,9 @@ a:visited {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+
+.indicators { 
+	display: none;
+}
+
