@@ -325,3 +325,244 @@ p span {
 .displayoff {
 	display: none;
 }
+
+
+@media(max-width:700px) {
+	.container1 {
+		height: 85vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		/* overflow: hidden; */
+	}
+	.half1 {
+		width: 100vw;
+		height: 23vh;
+		scroll-snap-type: y mandatory;
+		overflow-y: scroll;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		z-index: 2;
+	}
+	.half2 {
+		width: 100vw;
+		height: 63vh;
+		scroll-snap-type: y mandatory;
+		overflow-y: scroll;
+		padding: 0;
+		margin: 0;
+		z-index: 2;
+	}
+	.scroll1 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		scroll-snap-align: start;
+		/* padding-left: 5rem; */
+		/* padding-right: 5rem; */
+		/* padding-top: 7rem; */
+		padding-left: 0 !important;
+		padding-right: 0px !important;
+		padding-bottom: 0 !important;
+		padding-top: 0px !important;
+	
+	}
+	.scroll2 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		scroll-snap-align: start;
+		/* padding-left: 5rem; */
+		/* padding-right: 5rem; */
+		/* padding-top: 7rem; */
+		padding: 0 !important;
+	
+	}
+	.scroll3 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		scroll-snap-align: start;
+		/* padding-left: 5rem; */
+		/* padding-right: 5rem; */
+		/* padding-top: 7rem; */
+		padding: 0 !important;
+	
+	}
+	.scroll4 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		scroll-snap-align: start;
+		/* padding-left: 5rem; */
+		/* padding-right: 5rem; */
+		/* padding-top: 7rem; */
+		padding: 0 !important;
+	
+	}
+	.scroll5 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		scroll-snap-align: start;
+		/* padding-left: 5rem; */
+		/* padding-right: 5rem; */
+		/* padding-top: 7rem; */
+		padding: 0 !important;
+	
+	}
+	.scroll6 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		scroll-snap-align: start;
+		/* padding-left: 5rem; */
+		/* padding-right: 5rem; */
+		/* padding-top: 7rem; */
+		padding: 0 !important;
+	
+	}
+	.scroll7 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		scroll-snap-align: start;
+		/* padding-left: 5rem; */
+		/* padding-right: 5rem; */
+		/* padding-top: 7rem; */
+		padding: 0 !important;
+	
+	}
+	.scroll8 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		scroll-snap-align: start;
+		/* padding-left: 5rem; */
+		/* padding-right: 5rem; */
+		/* padding-top: 7rem; */
+		padding: 0 !important;
+	
+	}
+	.scroll9 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		scroll-snap-align: start;
+		/* padding-left: 5rem; */
+		/* padding-right: 5rem; */
+		/* padding-top: 7rem; */
+		padding: 0 !important;
+	
+	}
+	.scroll10 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		scroll-snap-align: start;
+		/* padding-left: 5rem; */
+		/* padding-right: 5rem; */
+		/* padding-top: 7rem; */
+		padding: 0 !important;
+	
+	}
+	.scroll11 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: flex-start;
+		scroll-snap-align: start;
+		/* padding-left: 5rem; */
+		/* padding-right: 5rem; */
+		/* padding-top: 7rem; */
+		padding: 0 !important;
+	
+	}
+	.scroll-data {
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		/* margin-left: 50px; */
+		/* padding-top: 2rem; */
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+		padding-bottom: 0 !important;
+		padding-top: 0px !important;
+	}
+	p {
+		color: white;
+		font-size: 0.8rem;
+	}
+	.scroll-heading {
+		font-size: 28px;
+	}
+	.events-main-heading {
+		font-size: 35px;
+		width: 100%;
+	}
+	.heading {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+	}
+	.image-events {
+		width: 80px;
+		height: 80px;
+		/* z-index: 5; */
+		position: relative;
+		/* left: -1%; */
+		margin-left: 6%;
+		margin-bottom: 4%;
+		/* top: -20%; */
+		/* margin-bottom: 20px; */
+	}
+	.image-div {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+	}
+}
