@@ -1004,3 +1004,6 @@ a:visited {
     flex-wrap: wrap;
 }
 
+.indicators { 
+	display: none;
+}
