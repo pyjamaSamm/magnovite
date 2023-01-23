@@ -395,3 +395,7 @@ p span {
 	position: absolute;
 	z-index: 1;
 }
+
+.image-events{
+	box-shadow: 5px 5px 5px #666666;
+}
