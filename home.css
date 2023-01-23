@@ -53,6 +53,7 @@ html {
 
 
 .main-title {
+	/* font-family: "Commissioner", sans-serif !important; */
 	position: absolute;
 	margin: 0;
 	padding: 0;
@@ -81,7 +82,7 @@ html {
 }
 
 .magnoContent h1 {
-	font-size: 3.7rem !important;
+	font-size: 4.7rem !important;
 	color: white;
 	z-index: 900;
 	background-color: black;
@@ -630,7 +631,7 @@ a:visited {
 .gifContents {
 	height: 100vh;
 }
-
+/* 
 @media(max-height: 800px) {
 	.gifContents {
 		height: 90vh;
@@ -640,13 +641,13 @@ a:visited {
 	.cardDiv {
 		margin-top: -280vh;
 	}
-}
+} */
 
-@media(max-height: 700px) {
+/* @media(max-height: 700px) {
 	.gifContents {
 		height: 90vh;
 		padding-top: 40vh;
-	}
+	} */
 
 	/* .cardDiv {
 		margin-top: -300vh;
@@ -655,8 +656,8 @@ a:visited {
 	/* .magnoP{
 		margin-top: 500vh ;
 	} */
-}
-
+/* } */
+/* 
 @media(min-width: 1000px) {
 	@media(max-width: 1200px) {
 		.gifContents {
@@ -675,8 +676,8 @@ a:visited {
 			margin-top: -20vh;
 		}
 	}
-}
-
+} */
+/* 
 @media(max-width:950px) {
 	@media(max-height: 800px) {
 		.magnoP {
@@ -692,8 +693,8 @@ a:visited {
 		}
 	}
 
-}
-
+} */
+/* 
 @media(min-height:1020px) {
 	@media(max-height:1050px) {
 		.magnoP {
@@ -708,8 +709,8 @@ a:visited {
 			height: 86vh;
 		}
 	}
-}
-
+} */
+/* 
 @media(min-height:1300px) {
 	.magnoP {
 		margin-top: 15vh;
@@ -823,8 +824,8 @@ a:visited {
 			}
 		}
 	}
-}
-
+} */
+/* 
 @media(min-width: 1600px) {
 	.magnoP {
 		margin-top: -10vh;
@@ -852,8 +853,8 @@ a:visited {
 	position: relative;
 	margin-top: 260vh;
 	padding-bottom: 100px;
-}
-
+} */
+/* 
 @media(max-width:414px) {
 	.lowerComponent {
 		margin-top: 110vh;
@@ -870,16 +871,16 @@ a:visited {
 	.lowerComponent {
 		margin-top: 180vh;
 	}
-}
+} */
 /* @media(min-width: 600px) {
 	.lowerComponent {
 		margin-top: 180vh;
 	}
 } */
-@media(min-width: 800px) {
+/* @media(min-width: 800px) {
 	
-}
-
+} */
+/* 
 @media(max-width: 280px) {
 	.lowerComponent {
 		margin-top: 100vh;
@@ -893,8 +894,8 @@ a:visited {
 		font-size: 15px;
 	}
 
-}
-
+} */
+/* 
 @media(min-width:600px) {
 	.lowerComponent {
 		margin-top: 90vh;
@@ -905,8 +906,8 @@ a:visited {
 	.gifContents h1{
 		margin-left: 16vw;
 	}
-}
-@media(min-width: 900px){
+} */
+/* @media(min-width: 900px){
 	.magnoP{
 		margin-top: 50vh;
 	}
@@ -943,6 +944,181 @@ a:visited {
 		margin-left: 26vw;
 	}
 }
+ */
+ /* @media(min-width:900px){
+	.lowerComponent{
+		margin-top: -150vh;
+	}
+ } */
+
+ .magnoLogo{
+	position: absolute;
+	z-index: 99;
+	width: 80vw;
+	margin-top: -63vh;
+	margin-left: 24vw;
+	background: transparent;
+	max-width: 500px;
+}
+.main-title{
+	font-size: 4.3rem;
+}
+
+@media(max-width: 449px){
+	.main-title{
+		font-size: 3.0rem;
+	}
+	.magnoLogo{
+		margin-left: 11vw;
+		margin-top: -61vh;
+	}
+	.lowerComponent{
+		margin-top: -160vh;
+	}
+	@media(min-height: 792px){
+		
+		.lowerComponent{
+			margin-top: -110vh;
+		}
+		
+	}
+	
+}
+@media(min-width:450px){
+	@media(max-height:900px){
+	.magnoP{
+		margin-top: 25vh;
+	}
+	.lowerComponent{
+		margin-top: -220vh;
+	}
+}
+	@media(min-height: 1000px){
+		.lowerComponent{
+			margin-top: -140vh;
+		}
+		.magnoLogo{
+			margin-left: 21%;
+		}
+		.magnoContent h1{
+			font-size: 1.5rem !important;
+		}
+		@media(max-height:1025px){
+			.magnoLogo{
+				margin-left: 17% !important;
+			}
+		}
+	}
+	@media(min-height: 800px){
+		.lowerComponent{
+			margin-top: -140vh;
+		}
+	}
+	@media(max-height: 800px){
+		.lowerComponent{
+			margin-top: -150vh;
+		}
+		.magnoLogo{
+			margin-left: 10%;
+		}
+	}
+	/* @media(min-height: 1019px){
+		.lowerComponent{
+			margin-top: -120vh;
+		}
+	} */
+
+}
+@media(min-height:449px){
+	@media(max-height:1025px){
+		.magnoLogo{
+			margin-left: 10%;
+		}
+	}
+}
+@media(min-width:1020px){
+	.magnoLogo{
+		margin-left: 28vw;
+		margin-top: -59vh;
+	}
+	@media(max-height: 850px){
+		.lowerComponent{
+			margin-top: -180vh;
+		}
+		.magnoLogo{
+			margin-left: 32vw;
+			margin-top: -59vh;
+		}
+	}
+	@media(max-height: 620px){
+		.lowerComponent{
+			margin-top: -200vh;
+		}
+	}
+}
+@media(min-width: 1080px){
+	.lowerComponent{
+		margin-top: -150vh;
+	}
+}
+
+@media(min-width:1300px){
+	.lowerComponent{
+	margin-top: -170vh;
+	}
+	@media(min-height: 1000px){
+		.lowerComponent{
+			margin-top: -120vh;
+		}
+	}
+	.magnoContent h1{
+		font-size: 3.4rem !important;
+		margin-left: 45%;
+	}
+}
+@media(min-width:1500px){
+	.magnoP{
+		margin-top: 35vh;
+	}
+	.magnoLogo{
+		margin-left: 38vw;
+		margin-top: -59vh;
+	}
+	@media(min-height: 900px){
+		.lowerComponent{
+			margin-top: -110vh;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* footer css starts here */
@@ -1004,6 +1180,8 @@ a:visited {
     flex-wrap: wrap;
 }
 
+
 .indicators { 
 	display: none;
 }
+

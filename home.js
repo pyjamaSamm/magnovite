@@ -10,7 +10,7 @@
   function initHeader() {
     width = window.innerWidth;
     height = window.innerHeight;
-    target = { x: width / 2, y: height / 2 };
+    target = { x: width / 2, y: height / 2.5 };
 
     largeHeader = document.getElementById('large-header');
     largeHeader.style.height = height + 'px';
@@ -122,38 +122,40 @@
         // } else 
         if (Math.abs(getDistance(target, points[i])) < 4000) {
           if(window.innerWidth>=1600){
-            points[i].active = 0.4;
-            points[i].circle.active = 0.9;
+            // points[i].active = 0.4;
+            // points[i].circle.active = 0.9;
           }
           else{
-            points[i].active = 0.3;
-            points[i].circle.active = 0.6;
+            // points[i].active = 0.3;
+            // points[i].circle.active = 0.6;
           }
         } else if (Math.abs(getDistance(target, points[i])) < 20000) {
           if(window.innerWidth>=1600){
-            points[i].active = 0.2;
-            points[i].circle.active = 0.9;
+            points[i].active = 0.02;
+            // points[i].circle.active = 0.9;
           }else{
-            points[i].active = 0.1;
-            points[i].circle.active = 0.3;
+            points[i].active = 0.009;
+            // points[i].circle.active = 0.3;
+            // points[i].active = 0.1;
+            points[i].circle.active = 0.02;
           }
         } else if (Math.abs(getDistance(target, points[i])) < 40000) {
           if (window.innerWidth >= 1600) {
             points[i].active = 0.09;
-            points[i].circle.active = 0.1;
+            // points[i].circle.active = 0.1;
           }
           else {
             points[i].active = 0.02;
-            points[i].circle.active = 0.1;
+            // points[i].circle.active = 0.1;
           }
         } else if (Math.abs(getDistance(target, points[i])) < 80000) {
           if (window.innerWidth >= 1600) {
             points[i].active = 0.1;
-            points[i].circle.active = 1;
+            // points[i].circle.active = 1;
           }
         } else {
           points[i].active = 0;
-          points[i].circle.active = 0;
+          // points[i].circle.active = 0;
         }
 
         drawLines(points[i]);

@@ -1,241 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&family=Montserrat:wght@300&family=Poiret+One&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="architecture.css" />
-    <title>Architecture</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-md">
-      <a class="navbar-brand" href="#"><img src="christ_logo.png" style="height: 70px; width: 180px;" class="d-inline-block align-text-top"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <!-- <span class="navbar-toggler-icon"></span> -->
-          <!-- <span><img src=""></span> -->
-          <div class="container" onclick="myFunction(this)">
-              <div class="bar1" style="background-color: #D8F3DC;"></div>
-              <div class="bar2" style="background-color: #95D5B2;"></div>
-              <div class="bar3" style="background-color: #D8F3DC;"></div>
-          </div>
-      </button>
-      
-      <div class="collapse navbar-collapse navBar" id="navbarTogglerDemo01"
-          style="position: absolute; margin-top: 20px;">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                  <a class="nav-link" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Registration</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Events</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Gallery</a>
-              </li>
-          </ul>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&family=Montserrat:wght@300&family=Poiret+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="architecture.css" />
+  <title>Architecture</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="#"><img src="christ_logo.png" style="height: 70px; width: 180px;"
+        class="d-inline-block align-text-top"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <span class="navbar-toggler-icon"></span> -->
+      <!-- <span><img src=""></span> -->
+      <div class="container" onclick="myFunction(this)">
+        <div class="bar1" style="background-color: #D8F3DC;"></div>
+        <div class="bar2" style="background-color: #95D5B2;"></div>
+        <div class="bar3" style="background-color: #D8F3DC;"></div>
       </div>
-    </nav>
+    </button>
 
-    
-    <div class="container1 black">
-      <div class="half1 black">
-        <div class="heading white-color">
-          <h1 class="events-main-heading">Architecture Events</h1>
-        </div>
-        
-          <img class="image-events img1" src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FRevival%20outlook.png?alt=media&token=c79c90b2-9042-4b01-9de4-bc7909aef2a0" />
-        
-        
-          <img class="image-events displayoff img2" src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FGlimpse%20into%20the%20unfocused.png?alt=media&token=67fc299b-036e-461f-873d-7b1dcf77b836" />
-
-          <img class="image-events displayoff img3" src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FTerrAbstract.png?alt=media&token=9698de47-73ed-479d-932a-deb35c1d537b" />
-        
-          <img class="image-events displayoff img4" src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FDesign%20Charrette.png?alt=media&token=8e80be7d-96a0-43dd-b98e-fed8dc7f256d" />
-        
-          <img class="image-events displayoff img5" src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FSpill%20art.png?alt=media&token=bf19f56d-2603-4d8e-8ad0-a7351a5577ab" />
-        
-          <img class="image-events displayoff img6" src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FScrape-in.png?alt=media&token=e65f8669-e2cb-4f18-b0da-829cc1e073a1" />
-        
-          <img class="image-events displayoff img7" src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FDigi-Tale.png?alt=media&token=91cd1882-12e9-497e-9fc0-3875a4cbe40c" />
-        
-          
-
-      </div>
-      <div class="half2 black">
-        <div class="scroll1 black">
-          
-          <div class="scroll-data">
-            <h1 class="scroll-heading white-color">
-                Revival Outlook
-            </h1>
-            <p class="para-events">
-                The theme of the event is "Timeless architecture," and
-                participants will select any civilization (notable for its
-                building) from any age to design costumes, jewelry,
-                accessories, and other items that are influenced by the
-                architecture. It will be followed by a ramp walk to present
-                their design inspired by the unique traditions of the
-                civilization. The design/style should not mimic the fashion
-                of the people from the selected time period.
-            </p>
-          </div>
-          
-          
-            
-          
-         
-        </div>
-        <div class="scroll2 black">
-          
-          <div class="scroll-data">
-            <h1 class="scroll-heading white-color">
-                Glimpse into the unfocused
-            </h1>
-            <p class="para-events">
-                An online photography competition where participants will
-                be given a theme to use and take pictures that are
-                appropriate for entry.
-            </p>
-          </div>
-          
-          
-            
-          
-         
-        </div>
-        <div class="scroll3 black">
-          <div class="scroll-data">
-            <h1 class="scroll-heading white-color">
-                TerrAbstract
-            </h1>
-            <p class="para-events">
-                A theme will be provided for the participants on spot and
-                they would have to mould an abstract sculpture
-                accordingly.
-            </p>
-          </div>
-          
-        </div>
-        <div class="scroll4 black">
-          <div class="scroll-data">
-            <h1 class="scroll-heading white-color">
-                Design Charrette
-            </h1>
-            <p class="para-events">
-                Design charrette is a competition for architectural design
-                that aims to generate innovative design concepts. To
-                achieve pleasing and efficient results, you can use any
-                material or technology. To avoid limiting your imagination,
-                the project aims to be open and unrestricted.
-            </p>
-          </div>
-          
-        </div>
-        <div class="scroll5 black">
-          <div class="scroll-data">
-            <h1 class="scroll-heading white-color">
-                Spill Art
-            </h1>
-            <p class="para-events">
-                Creative art has to be made out of the provided spilled
-                inked sheets all the participants.
-            </p>
-          </div>
-          
-        </div>
-        <div class="scroll6 black">
-          <div class="scroll-data">
-            <h1 class="scroll-heading white-color">
-                Scrape-In
-            </h1>
-            <p class="para-events">
-                A theme will be provided for the participants and they
-                have to carve out in any one of the medium provided
-                (Pencil/Chalk/Wax/Clay) depending on their creativity
-                (can use online resources) within the time duration.
-            </p>
-          </div>
-          
-        </div>
-        <div class="scroll7 black">
-          <div class="scroll-data">
-            <h1 class="scroll-heading white-color">
-                Digi-Tale
-            </h1>
-            <p class="para-events">
-                This is a digital event in which the participants will be
-                given a picture which they have to edit keeping in mind the
-                given topic at the time of event. Any design software can
-                be used by the participants. Examples: Photoshop,
-                Illustrator, Inkscape, procreate etc.
-                <br>
-                Note: Use of artificial intelligence (AI) is not allowed.
-            </p>
-          </div>
-          
-        </div>
-          
-        
+    <div class="collapse navbar-collapse navBar" id="navbarTogglerDemo01" style="position: absolute; margin-top: 20px;">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="./home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Registration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./home.html">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+      </ul>
     </div>
- 
-  
-  
-  <script src="architecture.js"></script>
+  </nav>
+
+
+  <div class="container1 black ">
+    <div class="half1 black ">
+      <div class="heading white-color">
+        <h1 class="events-main-heading">Architecture Events</h1>
+      </div>
+      <img class="image-events img1 "
+        src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FRevival%20outlook.png?alt=media&token=c79c90b2-9042-4b01-9de4-bc7909aef2a0"/>
+
+      <img class="image-events displayoff img2"
+        src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FGlimpse%20into%20the%20unfocused.png?alt=media&token=67fc299b-036e-461f-873d-7b1dcf77b836" />
+
+      <img class="image-events displayoff img3"
+        src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FTerrAbstract.png?alt=media&token=9698de47-73ed-479d-932a-deb35c1d537b" />
+
+      <img class="image-events displayoff img4"
+        src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FDesign%20Charrette.png?alt=media&token=8e80be7d-96a0-43dd-b98e-fed8dc7f256d" />
+
+      <img class="image-events displayoff img5"
+        src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FSpill%20art.png?alt=media&token=bf19f56d-2603-4d8e-8ad0-a7351a5577ab" />
+
+      <img class="image-events displayoff img6"
+        src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FScrape-in.png?alt=media&token=e65f8669-e2cb-4f18-b0da-829cc1e073a1" />
+
+      <img class="image-events displayoff img7"
+        src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FDigi-Tale.png?alt=media&token=91cd1882-12e9-497e-9fc0-3875a4cbe40c" />
+
+
+
+    </div>
+    <div class="half2 black">
+      <div class="scroll1 black">
+
+        <div class="scroll-data">
+          <h1 class="scroll-heading white-color">
+            Revival Outlook
+          </h1>
+          <p class="para-events">
+            The theme of the event is "Timeless architecture," and
+            participants will select any civilization (notable for its
+            building) from any age to design costumes, jewelry,
+            accessories, and other items that are influenced by the
+            architecture. It will be followed by a ramp walk to present
+            their design inspired by the unique traditions of the
+            civilization. The design/style should not mimic the fashion
+            of the people from the selected time period.
+          </p>
+        </div>
+
+
+
+
+
+      </div>
+      <div class="scroll2 black">
+
+        <div class="scroll-data">
+          <h1 class="scroll-heading white-color">
+            Glimpse into the unfocused
+          </h1>
+          <p class="para-events">
+            An online photography competition where participants will
+            be given a theme to use and take pictures that are
+            appropriate for entry.
+          </p>
+        </div>
+
+
+
+
+
+      </div>
+      <div class="scroll3 black">
+        <div class="scroll-data">
+          <h1 class="scroll-heading white-color">
+            TerrAbstract
+          </h1>
+          <p class="para-events">
+            A theme will be provided for the participants on spot and
+            they would have to mould an abstract sculpture
+            accordingly.
+          </p>
+        </div>
+
+      </div>
+      <div class="scroll4 black">
+        <div class="scroll-data">
+          <h1 class="scroll-heading white-color">
+            Design Charrette
+          </h1>
+          <p class="para-events">
+            Design charrette is a competition for architectural design
+            that aims to generate innovative design concepts. To
+            achieve pleasing and efficient results, you can use any
+            material or technology. To avoid limiting your imagination,
+            the project aims to be open and unrestricted.
+          </p>
+        </div>
+
+      </div>
+      <div class="scroll5 black">
+        <div class="scroll-data">
+          <h1 class="scroll-heading white-color">
+            Spill Art
+          </h1>
+          <p class="para-events">
+            Creative art has to be made out of the provided spilled
+            inked sheets all the participants.
+          </p>
+        </div>
+
+      </div>
+      <div class="scroll6 black">
+        <div class="scroll-data">
+          <h1 class="scroll-heading white-color">
+            Scrape-In
+          </h1>
+          <p class="para-events">
+            A theme will be provided for the participants and they
+            have to carve out in any one of the medium provided
+            (Pencil/Chalk/Wax/Clay) depending on their creativity
+            (can use online resources) within the time duration.
+          </p>
+        </div>
+
+      </div>
+      <div class="scroll7 black">
+        <div class="scroll-data">
+          <h1 class="scroll-heading white-color">
+            Digi-Tale
+          </h1>
+          <p class="para-events">
+            This is a digital event in which the participants will be
+            given a picture which they have to edit keeping in mind the
+            given topic at the time of event. Any design software can
+            be used by the participants. Examples: Photoshop,
+            Illustrator, Inkscape, procreate etc.
+            <br>
+            Note: Use of artificial intelligence (AI) is not allowed.
+          </p>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+
+    <script src="architecture.js"></script>
     <script>
       function myFunction(x) {
-          x.classList.toggle("change");
+        x.classList.toggle("change");
       }
-  </script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-  <script src="home.js"></script>
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="home.js"></script>
 
-  <script>
-    $(window).scroll(function(){
-      let $window = $(window),
-          $body = $('body'),   
+    <script>
+      $(window).scroll(function () {
+        let $window = $(window),
+          $body = $('body'),
           $section = $('.section');
-      let scroll = $window.scrollTop() + ($window.height() / 3);
-      $section.each(function(){ 
-        if($(this).position().top <= scroll && $(this).position().top + $(this).height() > scroll){
-          $body.removeClass(function (index, css){
-            return (css.match (/(^|\s)color-\s+/g) || [].join(' '));
-          });
-          $('.section').removeClass('active');
-          $(this).addClass('active');
-        }
-      });
-    }).scroll();
-  </script>
+        let scroll = $window.scrollTop() + ($window.height() / 3);
+        $section.each(function () {
+          if ($(this).position().top <= scroll && $(this).position().top + $(this).height() > scroll) {
+            $body.removeClass(function (index, css) {
+              return (css.match(/(^|\s)color-\s+/g) || [].join(' '));
+            });
+            $('.section').removeClass('active');
+            $(this).addClass('active');
+          }
+        });
+      }).scroll();
+    </script>
 
-  </body>
+</body>
+
 </html>
 
 <!-- 
