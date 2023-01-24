@@ -396,7 +396,7 @@ p span {
 	position: absolute;
 	z-index: 1;
 }
-@media(max-width:700px) {
+@media(max-width:800px) {
 	.container1 {
 		height: 85vh;
 		display: flex;
@@ -675,7 +675,7 @@ section{
 	}
   }
   
-  -webkit-@keyframes spin {
+  @-webkit-keyframes spin {
 	-webkit-from {
 	  -webkit-transform: rotate(0deg);
 	  -ms-transform: rotate(0deg);
