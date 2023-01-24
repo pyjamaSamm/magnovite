@@ -39,18 +39,6 @@
 </head>
 
 <body>
-<main>
-  <!--This is the code for loader, put the rest content in another div so that the fade work can be done with JS-->
-
-  <div id="loader">
-    <img src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/intro.gif?alt=media&token=ea7d8a40-6280-4b9d-aea3-98c72de64bd6"></img>
-</div>
-
-
-</main>
-
-<div class="main-content1">
-<div class="main-content">
 
     </div class="y mandatory-scroll-snapping always-stop">
 
@@ -292,24 +280,6 @@
             </footer>
         </div>
 </div>
-</div>
-</div>
-        <!--This script loads the loader for 6 seconds and then remove it-->
-        <script>
-            $(function() {
-$(".main-content1").fadeOut(10, function(){
-  $("#loader").fadeIn(1000, function() {
-    $("#loader").fadeOut(8000, function() {
-      $(".main-content1").fadeIn(1000, function() {
-    
-      });
-    });
-  });
-});
-});
-
-   
-        </script>
 
         <script>
             function myFunction(x) {
