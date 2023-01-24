@@ -42,6 +42,33 @@
     <title>MBA</title>
   </head>
   <body>
+    <section id="loaderofloader">
+      <!--This is the code for loader, put the rest content in another div so that the fade work can be done with JS-->
+    
+      
+        <div class="multi-spinner-container">
+          <div class="multi-spinner">
+            <div class="multi-spinner">
+              <div class="multi-spinner">
+                <div class="multi-spinner">
+                  <div class="multi-spinner">
+                    <div class="multi-spinner">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    
+    
+  </section>
+  
+  
+  <div class="main-content-main">
+    <div class="main-content">
+  
     <nav class="navbar navbar-expand-md">
       <a class="navbar-brand" href="#"
         ><img
@@ -343,7 +370,8 @@
         </div>
       </div>
     </div>
-
+  </div>
+</div>
     <script src="mba.js"></script>
     <script>
       function myFunction(x) {
@@ -354,6 +382,17 @@
     <script src="home.js"></script>
 
     <script>
+           $(function() {
+$(".main-content-main").fadeOut(1, function(){
+$("#loaderofloader").fadeIn(5000, function() {
+  $("#loaderofloader").fadeOut(2000, function() {
+    $(".main-content-main").fadeIn(1000, function() {
+  
+    });
+  });
+});
+});
+});
       $(window)
         .scroll(function () {
           let $window = $(window),
