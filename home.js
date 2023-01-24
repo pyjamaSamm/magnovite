@@ -143,15 +143,17 @@
           if (window.innerWidth >= 1600) {
             points[i].active = 0.09;
             // points[i].circle.active = 0.1;
+            points[i].circle.active = 0.1;
           }
           else {
             points[i].active = 0.02;
             // points[i].circle.active = 0.1;
+            points[i].circle.active = 0.1;
           }
         } else if (Math.abs(getDistance(target, points[i])) < 80000) {
           if (window.innerWidth >= 1600) {
             points[i].active = 0.1;
-            // points[i].circle.active = 1;
+            points[i].circle.active = 0.3;
           }
         } else {
           points[i].active = 0;
