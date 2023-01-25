@@ -9,7 +9,8 @@ const scroll8 = document.querySelector(".scroll8");
 const scroll9 = document.querySelector(".scroll9");
 const scroll10 = document.querySelector(".scroll10");
 const scroll11 = document.querySelector(".scroll11");
-const scroll = [scroll1, scroll2, scroll3, scroll4, scroll5, scroll6, scroll7, scroll8, scroll9, scroll10, scroll11];
+const scroll12 = document.querySelector(".scroll12");
+const scroll = [scroll1, scroll2, scroll3, scroll4, scroll5, scroll6, scroll7, scroll8, scroll9, scroll10, scroll11, scroll12];
 
 const img1 = document.querySelector(".img1");
 const img2 = document.querySelector(".img2");
@@ -22,8 +23,9 @@ const img8 = document.querySelector(".img8");
 const img9 = document.querySelector(".img9");
 const img10 = document.querySelector(".img10");
 const img11 = document.querySelector(".img11");
+const img12 = document.querySelector(".img12");
 
-const img = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11];
+const img = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12];
 
 const half2 = document.querySelector(".half2");
 
