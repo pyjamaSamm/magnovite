@@ -35,6 +35,10 @@
     overflow-x: hidden;
     overflow-y: auto;
   }
+  .pop-up-content-wrap ol, .pop-up-content-wrap b, .pop-up-content-wrap li{
+    color: black!important;
+    background-color: white;
+  }
   
   .model-open {
     z-index: 99999;
