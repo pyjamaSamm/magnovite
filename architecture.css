@@ -811,6 +811,9 @@ section {
 			left: 13%;
 			top: 43%
 		}
+		.events-main-heading{
+			margin-top: -100px;
+		}
 
 		.res {
 			padding-left: 0;
@@ -842,7 +845,6 @@ section {
 	}
 }
 #headingRemove{
-	background-color: #74C69D;
 	padding-top: 10px !important;
 	padding-bottom: 10px !important;
 }
