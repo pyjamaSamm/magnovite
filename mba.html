@@ -27,6 +27,7 @@
     href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&family=Montserrat:wght@300&family=Poiret+One&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="engineering.css" />
+  <link rel="stylesheet" href="rules.css">
   <title>MBA</title>
 </head>
 
@@ -110,8 +111,36 @@
                 <img class="image-events img1"
                   src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2Fpublic%20relations.png?alt=media&token=624685d7-7276-4940-8dc2-15594de61d40" />
               </div>
-              <h1 class="scroll-heading white-color">Public Relations</h1>
-              <p class="para-events">
+              <h1 class="scroll-heading white-color" style="padding-bottom:5px">Public Relations 
+                <div class="Click-here">Rules</div>
+                <div class="custom-model-main">
+                  <div class="custom-model-inner">
+                    <div class="close-btn">x</div>
+                    <div class="custom-model-wrap">
+                      <div class="pop-up-content-wrap">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, fugiat esse facilis ad deleniti, eum
+                        culpa consectetur deserunt voluptate perspiciatis nihil veniam asperiores dolorem eos ducimus
+                        officia. Nulla, tempora soluta.
+                        Iure magni quos impedit reprehenderit ullam mollitia molestias repudiandae, ad deleniti repellat
+                        sint architecto, quod et quis, optio earum perspiciatis sed quae ipsum. Dicta eius a quis sit iure
+                        aut.
+                        Eius veritatis dicta blanditiis ducimus hic, laborum quibusdam. Quod accusantium vero asperiores
+                        sint et blanditiis! Ullam eveniet vitae nulla tempora, similique doloremque nostrum quisquam esse
+                        ab quae. Nam, nesciunt ipsam.
+                        Excepturi voluptates deleniti adipisci iste nemo harum dolore ipsum officiis quasi. Quos odio
+                        eaque sapiente ad doloribus est magnam magni facilis itaque. Suscipit id alias voluptatum
+                        perferendis at iste corporis?
+                        Quaerat porro quos, aspernatur nemo ad aperiam inventore. Et non molestias natus facere
+                        repellendus amet consequuntur dolorem porro a at. In vitae animi expedita a omnis saepe error quis
+                        accusantium.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="bg-overlay"></div>
+                </div>
+              
+              </h1>
+              <p class="para-events"> 
                 PR is a strategic communication process that builds mutually
                 beneficial relationships between organisations and their public.
                 As PRO the participants will go through some of the most gruelling
@@ -331,7 +360,14 @@
   </script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
   <script src="home.js"></script>
-
+  <script>
+    $(".Click-here").on('click', function () {
+      $(".custom-model-main").addClass('model-open');
+    });
+    $(".close-btn, .bg-overlay").click(function () {
+      $(".custom-model-main").removeClass('model-open');
+    });
+  </script>
   <script>
     $(function () {
       $(".main-content-main").fadeOut(1, function () {
