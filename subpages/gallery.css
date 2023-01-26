@@ -1,16 +1,8 @@
 * {
 	font-family: 'Montserrat', sans-serif;
-	padding: 0;
+	padding: 0; 
 	margin: 0;
-	background-color: black;
-}
-.navBar {
-	height: 15vh;
-	background: transparent;
-	display: flex;
-	justify-content: space-evenly;
-	padding-left: 15%;
-	padding-right: 15%;
+	background-color : black;
 }
 
 .navItems {
@@ -28,18 +20,12 @@
 .large-header {
 	position: relative;
 	width: 100%;
-	background: #333;
-	overflow: hidden;
+	background: black;
 	background-size: cover;
 	background-position: center center;
 	z-index: 1;
+  padding-bottom: 50px;
 }
-
-#large-header {
-	height: 100vh;
-	background-color: black;
-}
-
 
 p {
 	color: white;
@@ -55,11 +41,6 @@ p span {
 .child {
 	scroll-snap-align: start;
 }
-
-.navbar {
-	/* height: 30px; */
-}
-
 .nav-link {
 	color: #74C69D !important;
 }
@@ -78,6 +59,17 @@ p span {
 		margin-left: 35vw !important;
 
 	}
+
+}
+
+@media(max-width:992px) {
+  .navbar-collapse.navBar {
+    position: absolute;
+              top: 0px;
+              right: 20%;
+              border-radius: 0.25rem;
+              padding: 10px !important;
+  }
 
 }
 
@@ -108,28 +100,16 @@ p span {
 .change .bar3 {
 	transform: translate(0, -11px) rotate(45deg);
 }
-
-
-@media(max-width:1203px) {
-	.navBar {
-		padding: 0;
-	}
+@media screen and (min-width: 1000px) {
+.navBar {
+	/* height: 100px; */
+	background: transparent;
+	display: flex;
+	justify-content: space-evenly;
+	padding-left: 15%;
+	padding-right: 15%;
+  padding-top: 40px !important;
 }
-@media(max-width:990px) {
-	.navBar {
-		padding: 30vw;
-	}
-}
-@media(max-width:850px) {
-	.navBar {
-		padding: 28vw;
-	}
-}
-
-.navbar-collapse{
-	/* margin-top: 150px !important;
-	padding-right: 0;
-	padding-left: 60vw; */
 }
 
 .section-header {
