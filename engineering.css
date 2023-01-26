@@ -879,6 +879,13 @@ section {
 	.events-main-heading {
 		font-size: 1.7rem;
 	}
+	.para-events{
+		padding-top: 10px;
+		font-size: 13px !important;
+	}
+	.scroll-heading{
+		padding-top: 10px;
+	}
 
 	.heading {
 		display: block;
@@ -928,8 +935,10 @@ section {
 
 @media(max-width:420px){
 	.image-events{
-		margin-left: -20px !important;
+		margin-left: 6vw !important;
 		padding-top: 5px;
+		width: 20vw;
+		height: 20vw;
 	}
 }
 
@@ -948,4 +957,10 @@ section {
 	/* background-color: 	#339980; */
 	padding: 10px;
 	border-radius: 10px;
+}
+
+@media(max-width:410px){
+.para-events{
+	font-size: 13px !important;
+}
 }
