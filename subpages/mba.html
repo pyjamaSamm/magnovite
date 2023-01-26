@@ -1,391 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&family=Montserrat:wght@300&family=Poiret+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="engineering.css" />
+    <link rel="stylesheet" href="rules.css" />
+    <title>Managerial Events - Magnovite 2023</title>
+  </head>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato:wght@300&family=Montserrat:wght@300&family=Poiret+One&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="engineering.css" />
-  <link rel="stylesheet" href="rules.css">
-  <title>Managerial Events - Magnovite 2023</title>
-</head>
+  <body>
+    <section id="loaderofloader">
+      <!--This is the code for loader, put the rest content in another div so that the fade work can be done with JS-->
 
-<body>
-  <section id="loaderofloader">
-    <!--This is the code for loader, put the rest content in another div so that the fade work can be done with JS-->
-
-
-    <div class="multi-spinner-container">
-      <div class="multi-spinner">
+      <div class="multi-spinner-container">
         <div class="multi-spinner">
           <div class="multi-spinner">
             <div class="multi-spinner">
               <div class="multi-spinner">
                 <div class="multi-spinner">
+                  <div class="multi-spinner"></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
+    <div class="main-content-main">
+      <div class="main-content">
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../media/christ_logo.png"
+              style="height: 70px; width: 220px; margin-left: 30px; z-index: 5"
+              class="d-inline-block align-text-top"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="z-index: 5"
+          >
+            <div
+              class="container"
+              onclick="myFunction(this)"
+              style="z-index: 5"
+            >
+              <div class="bar1" style="background-color: #d8f3dc"></div>
+              <div class="bar2" style="background-color: #95d5b2"></div>
+              <div class="bar3" style="background-color: #d8f3dc"></div>
+            </div>
+          </button>
 
-
-  </section>
-
-
-  <div class="main-content-main">
-    <div class="main-content">
-
-      <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#"><img src="../media/christ_logo.png"
-            style="height: 70px; width: 220px; margin-left: 30px; z-index: 5;"
-            class="d-inline-block align-text-top" /></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" style="z-index: 5;">
-          <div class="container" onclick="myFunction(this)" style="z-index: 5;">
-            <div class="bar1" style="background-color: #d8f3dc"></div>
-            <div class="bar2" style="background-color: #95d5b2"></div>
-            <div class="bar3" style="background-color: #d8f3dc"></div>
+          <div
+            class="collapse navbar-collapse navBar"
+            id="navbarTogglerDemo01"
+            style="position: absolute; margin-top: 20px"
+          >
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="../home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./regulations.html">Registration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./event.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+            </ul>
           </div>
-        </button>
+        </nav>
 
-        <div class="collapse navbar-collapse navBar" id="navbarTogglerDemo01"
-          style="position: absolute; margin-top: 20px">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="../home.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./regulations.html">Registration</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./event.html">Events</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./gallery.html">Gallery</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <div class="container1">
-
-        <div class="half1 black">
-          <div class="heading white-color">
-            <h1 class="events-main-heading">Managerial Events</h1>
-
-          </div>
-
-
-
-        </div>
-        <div class="half2 black">
-          <div class="scroll1 black res">
-            <div class="scroll-data">
-              <div class="image-div">
-                <img class="image-events img1"
-                  src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2Fpublic%20relations.png?alt=media&token=624685d7-7276-4940-8dc2-15594de61d40" />
-              </div>
-              <h1 class="scroll-heading white-color" style="padding-bottom:5px">Public Relations
-                <br>
-                <a href="" class="rules">Rules</a>
-
-              </h1>
-              <p class="para-events">
-                PR is a strategic communication process that builds mutually
-                beneficial relationships between organisations and their public.
-                The participants will go through some of the most gruelling
-                yet interesting rounds to win over the
-                judges through diplomacy, perseverance, tact and communication while at the same time enhance their
-                crisis management skills.
-              </p>
+        <div class="container1">
+          <div class="half1 black">
+            <div class="heading white-color">
+              <h1 class="events-main-heading">Managerial Events</h1>
             </div>
           </div>
-          <div class="scroll2 black res">
-            <div class="scroll-data">
-              <div class="image-div">
-                <img class="image-events img2"
-                  src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2Foperations.png?alt=media&token=ab7a3a14-6bea-4bf4-8e13-ed7167db5753" />
+          <div class="half2 black">
+            <div class="scroll1 black res">
+              <div class="scroll-data">
+                <div class="image-div">
+                  <img
+                    class="image-events img1"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2Fpublic%20relations.png?alt=media&token=624685d7-7276-4940-8dc2-15594de61d40"
+                  />
+                </div>
+                <h1
+                  class="scroll-heading white-color"
+                  style="padding-bottom: 5px"
+                >
+                  Public Relations
+                  <br />
+                  <a target=”_blank” href="https://drive.google.com/file/d/1fsJSe6_IsOt14NQqdZlPaXqc0qDy9nZE/view?usp=sharing" class="rules">Rules</a>
+                </h1>
+                <p class="para-events">
+                  PR is a strategic communication process that builds mutually
+                  beneficial relationships between organisations and their
+                  public. The participants will go through some of the most
+                  gruelling yet interesting rounds to win over the judges
+                  through diplomacy, perseverance, tact and communication while
+                  at the same time enhance their crisis management skills.
+                </p>
               </div>
-              <h1 class="scroll-heading white-color">Operations
-                <br>
-                <a href="" class="rules">Rules</a>
-
-              </h1>
-              <p class="para-events">
-                The "Operations" vertical events revolves around using operation
-                concepts like supply chain management, scheduling notations, lean
-                operation systems, chronological representation, and more to solve
-                complex business problems that come up in the modal production
-                cycle for any company. It will be an interesting and kindling
-                environment which will demand strong problem-solving skills, high
-                integrity and quick thinking.
-              </p>
             </div>
-          </div>
-          <div class="scroll3 black res">
-            <div class="scroll-data">
-              <div class="image-div">
-                <img class="image-events img3"
-                  src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2Fmarketing.png?alt=media&token=1cf41f24-fcb4-4179-9600-53ffbeb33e5e" />
-
+            <div class="scroll2 black res">
+              <div class="scroll-data">
+                <div class="image-div">
+                  <img
+                    class="image-events img2"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2Foperations.png?alt=media&token=ab7a3a14-6bea-4bf4-8e13-ed7167db5753"
+                  />
+                </div>
+                <h1 class="scroll-heading white-color">
+                  Operations
+                  <br />
+                  <a target=”_blank” href="https://drive.google.com/file/d/1fsJSe6_IsOt14NQqdZlPaXqc0qDy9nZE/view?usp=sharing" class="rules">Rules</a>
+                </h1>
+                <p class="para-events">
+                  The "Operations" vertical events revolves around using
+                  operation concepts like supply chain management, scheduling
+                  notations, lean operation systems, chronological
+                  representation, and more to solve complex business problems
+                  that come up in the modal production cycle for any company. It
+                  will be an interesting and kindling environment which will
+                  demand strong problem-solving skills, high integrity and quick
+                  thinking.
+                </p>
               </div>
-              <h1 class="scroll-heading white-color">Marketing
-                <br>
-                <a href="" class="rules">Rules</a>
-
-              </h1>
-              <p class="para-events">
-                Marketing is what liberates your soul and places your creativity
-                on the biggest platform. Your impression and your ideas shall be
-                etched in every mind. If you are scrambling to put up last minute
-                presentations and yet have strong reason to preserve yours. If you
-                believe you have the ability to go from 0-100 and still wish to
-                pierce higher, if you think out of the box. Marketing is the place
-                for you!
-              </p>
             </div>
-          </div>
-          <div class="scroll4 black res">
-            <div class="scroll-data">
-              <div class="image-div">
-                <img class="image-events img4"
-                  src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FBusiness%20Plan.png?alt=media&token=fed18783-333b-416c-b133-c56a66e0ad8c" />
+            <div class="scroll3 black res">
+              <div class="scroll-data">
+                <div class="image-div">
+                  <img
+                    class="image-events img3"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2Fmarketing.png?alt=media&token=1cf41f24-fcb4-4179-9600-53ffbeb33e5e"
+                  />
+                </div>
+                <h1 class="scroll-heading white-color">
+                  Marketing
+                  <br />
+                  <a target=”_blank” href="https://drive.google.com/file/d/1fsJSe6_IsOt14NQqdZlPaXqc0qDy9nZE/view?usp=sharing" class="rules">Rules</a>
+                </h1>
+                <p class="para-events">
+                  Marketing is what liberates your soul and places your
+                  creativity on the biggest platform. Your impression and your
+                  ideas shall be etched in every mind. If you are scrambling to
+                  put up last minute presentations and yet have strong reason to
+                  preserve yours. If you believe you have the ability to go from
+                  0-100 and still wish to pierce higher, if you think out of the
+                  box. Marketing is the place for you!
+                </p>
               </div>
-              <h1 class="scroll-heading white-color">Business Plan
-                <br>
-                <a href="" class="rules">Rules</a>
-
-              </h1>
-              <p class="para-events">
-                Business Plan is an event that will challenge you to exude creativity, master financials, and execute
-                deliverables flawlessly.
-                If delivering elevator pitches to successful investors and building unicorns has been a dream for you,
-                then look no further! An event that will challenge you on all business forefronts!
-
-              </p>
             </div>
-          </div>
-          <div class="scroll5 black res">
-            <div class="scroll-data">
-              <div class="image-div">
-                <img class="image-events img5"
-                  src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FBusiness%20Quiz.png?alt=media&token=75851968-56cc-4daa-b33d-b0f87dedd676" />
+            <div class="scroll4 black res">
+              <div class="scroll-data">
+                <div class="image-div">
+                  <img
+                    class="image-events img4"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FBusiness%20Plan.png?alt=media&token=fed18783-333b-416c-b133-c56a66e0ad8c"
+                  />
+                </div>
+                <h1 class="scroll-heading white-color">
+                  Business Plan
+                  <br />
+                  <a target=”_blank” href="https://drive.google.com/file/d/1fsJSe6_IsOt14NQqdZlPaXqc0qDy9nZE/view?usp=sharing" class="rules">Rules</a>
+                </h1>
+                <p class="para-events">
+                  Business Plan is an event that will challenge you to exude
+                  creativity, master financials, and execute deliverables
+                  flawlessly. If delivering elevator pitches to successful
+                  investors and building unicorns has been a dream for you, then
+                  look no further! An event that will challenge you on all
+                  business forefronts!
+                </p>
               </div>
-
-              <h1 class="scroll-heading white-color">Business Quiz
-                <br>
-                <a href="" class="rules">Rules</a>
-
-              </h1>
-              <p class="para-events">
-                <i>“To acquire knowledge, one must study; but to acquire wisdom, one must observe.”</i>
-                Business quiz is all about the thirst of unquenchable knowledge. It is a fun and educative way to test
-                your knowledge about the nuances of business. You will be challenged with critical questions which will
-                hone your quizzing skills and shape your minds with logical analysis and carefully curated reasoning.
-
-              </p>
             </div>
-          </div>
-          <div class="scroll6 black res">
-            <div class="scroll-data">
-              <div class="image-div">
-                <img class="image-events img6"
-                  src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FHuman%20resource.png?alt=media&token=e9252aee-e3dc-44ac-babd-df0c71e44785" />
+            <div class="scroll5 black res">
+              <div class="scroll-data">
+                <div class="image-div">
+                  <img
+                    class="image-events img5"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FBusiness%20Quiz.png?alt=media&token=75851968-56cc-4daa-b33d-b0f87dedd676"
+                  />
+                </div>
+
+                <h1 class="scroll-heading white-color">
+                  Business Quiz
+                  <br />
+                  <a target=”_blank” href="https://drive.google.com/file/d/1fsJSe6_IsOt14NQqdZlPaXqc0qDy9nZE/view?usp=sharing" class="rules">Rules</a>
+                </h1>
+                <p class="para-events">
+                  <i
+                    >“To acquire knowledge, one must study; but to acquire
+                    wisdom, one must observe.”</i
+                  >
+                  Business quiz is all about the thirst of unquenchable
+                  knowledge. It is a fun and educative way to test your
+                  knowledge about the nuances of business. You will be
+                  challenged with critical questions which will hone your
+                  quizzing skills and shape your minds with logical analysis and
+                  carefully curated reasoning.
+                </p>
               </div>
-
-              <h1 class="scroll-heading white-color">Human Resource
-                <br>
-                <a href="" class="rules">Rules</a>
-
-              </h1>
-              <p class="para-events">
-                Is it your thing to celebrate life, birthdays, farewells, and other milestones? Wait a minute, this
-                isn't the 1970s! With an event packed with mind-boggling HR cases, hiring sprees, and wicked treasure
-                hunts, we're here to offer you a preview of the HR that you may be in the future. Put on your thinking
-                caps and bring out your human side! It's time to engage!
-              </p>
             </div>
-          </div>
-          <div class="scroll7 black res">
-            <div class="scroll-data">
-              <div class="image-div">
-                <img class="image-events img7"
-                  src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FFinance.png?alt=media&token=61f0a374-d7f9-4292-b45f-8545e118046f" />
+            <div class="scroll6 black res">
+              <div class="scroll-data">
+                <div class="image-div">
+                  <img
+                    class="image-events img6"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FHuman%20resource.png?alt=media&token=e9252aee-e3dc-44ac-babd-df0c71e44785"
+                  />
+                </div>
+
+                <h1 class="scroll-heading white-color">
+                  Human Resource
+                  <br />
+                  <a target=”_blank” href="https://drive.google.com/file/d/1fsJSe6_IsOt14NQqdZlPaXqc0qDy9nZE/view?usp=sharing" class="rules">Rules</a>
+                </h1>
+                <p class="para-events">
+                  Is it your thing to celebrate life, birthdays, farewells, and
+                  other milestones? Wait a minute, this isn't the 1970s! With an
+                  event packed with mind-boggling HR cases, hiring sprees, and
+                  wicked treasure hunts, we're here to offer you a preview of
+                  the HR that you may be in the future. Put on your thinking
+                  caps and bring out your human side! It's time to engage!
+                </p>
               </div>
-
-              <h1 class="scroll-heading white-color">Finance
-                <br>
-                <a href="" class="rules">Rules</a>
-
-              </h1>
-              <p class="para-events">
-                <i>"Beware of little expenditures; a minor leak can destroy a huge ship."</i> -Franklin, Benjamin.
-                This event will give you several possibilities to expand your financial knowledge and discover the
-                breadth of finance beyond the limitations of classroom instruction. It is a platform to brainstorm,
-                execute, and learn. The experience will be worthwhile!
-              </p>
             </div>
-          </div>
-          <div class="scroll8 black res">
-            <div class="scroll-data">
-              <div class="image-div">
-                <img class="image-events img8"
-                  src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FBusiness%20analytics.png?alt=media&token=f37de0b4-2947-4ea6-853c-d0e77b24a5ee" />
-              </div>
-              <h1 class="scroll-heading white-color">Business Analytics
-                <br>
-                <a href="" class="rules">Rules</a>
+            <div class="scroll7 black res">
+              <div class="scroll-data">
+                <div class="image-div">
+                  <img
+                    class="image-events img7"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FFinance.png?alt=media&token=61f0a374-d7f9-4292-b45f-8545e118046f"
+                  />
+                </div>
 
-              </h1>
-              <p class="para-events">
-                Created to provide an in-house experience of Hackathons and contests. This event will put your
-                analytical and logical abilities,
-                general awareness, and clarity of thinking to the test, giving you a 360-degree picture of an MBA
-                concentration. Are you prepared to play in the big leagues?
-              </p>
+                <h1 class="scroll-heading white-color">
+                  Finance
+                  <br />
+                  <a target=”_blank” href="https://drive.google.com/file/d/1fsJSe6_IsOt14NQqdZlPaXqc0qDy9nZE/view?usp=sharing" class="rules">Rules</a>
+                </h1>
+                <p class="para-events">
+                  <i
+                    >"Beware of little expenditures; a minor leak can destroy a
+                    huge ship."</i
+                  >
+                  -Franklin, Benjamin. This event will give you several
+                  possibilities to expand your financial knowledge and discover
+                  the breadth of finance beyond the limitations of classroom
+                  instruction. It is a platform to brainstorm, execute, and
+                  learn. The experience will be worthwhile!
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="scroll9 black res">
-            <div class="scroll-data">
-              <div class="image-div">
-                <img class="image-events img9"
-                  src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2Fcsr.png?alt=media&token=4a079c36-56b0-418b-9abe-7b9511f51554" />
-
+            <div class="scroll8 black res">
+              <div class="scroll-data">
+                <div class="image-div">
+                  <img
+                    class="image-events img8"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FBusiness%20analytics.png?alt=media&token=f37de0b4-2947-4ea6-853c-d0e77b24a5ee"
+                  />
+                </div>
+                <h1 class="scroll-heading white-color">
+                  Business Analytics
+                  <br />
+                  <a target=”_blank” href="https://drive.google.com/file/d/1fsJSe6_IsOt14NQqdZlPaXqc0qDy9nZE/view?usp=sharing" class="rules">Rules</a>
+                </h1>
+                <p class="para-events">
+                  Created to provide an in-house experience of Hackathons and
+                  contests. This event will put your analytical and logical
+                  abilities, general awareness, and clarity of thinking to the
+                  test, giving you a 360-degree picture of an MBA concentration.
+                  Are you prepared to play in the big leagues?
+                </p>
               </div>
-
-              <h1 class="scroll-heading white-color csr">
-                CSR
-                <br>
-                <a href="" class="rules">Rules</a>
-
-              </h1>
-              <p class="para-events">
-                <i>“Giving back to society is an obligation, not a choice”.</i> Developing a sustainable business
-                includes social responsibility for a better future. CSR provides people with the chance to go beyond the
-                environment and embrace innovation and modelling to create a more sustainable future.
-              </p>
             </div>
-          </div>
-          <div class="scroll10 black res">
-            <div class="scroll-data">
-              <div class="image-div">
-                <img class="image-events img10"
-                  src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FBest%20Manager.png?alt=media&token=8d933234-25e1-4f6f-8a20-d14b8af8995f" />
+            <div class="scroll9 black res">
+              <div class="scroll-data">
+                <div class="image-div">
+                  <img
+                    class="image-events img9"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2Fcsr.png?alt=media&token=4a079c36-56b0-418b-9abe-7b9511f51554"
+                  />
+                </div>
+
+                <h1 class="scroll-heading white-color csr">
+                  CSR
+                  <br />
+                  <a target=”_blank” href="https://drive.google.com/file/d/1fsJSe6_IsOt14NQqdZlPaXqc0qDy9nZE/view?usp=sharing" class="rules">Rules</a>
+                </h1>
+                <p class="para-events">
+                  <i
+                    >“Giving back to society is an obligation, not a choice”.</i
+                  >
+                  Developing a sustainable business includes social
+                  responsibility for a better future. CSR provides people with
+                  the chance to go beyond the environment and embrace innovation
+                  and modelling to create a more sustainable future.
+                </p>
               </div>
-
-              <h1 class="scroll-heading white-color">Best Management Team
-                <br>
-                <a href="" class="rules">Rules</a>
-
-              </h1>
-              <p class="para-events">
-                Through exhilarating rounds, you may push yourself and boost your spirit by dealing with business issues
-                and key scenarios. Don't limit yourself to a single speciality; instead, become a jack of all crafts and
-                join us for this amazing learning experience!
-              </p>
             </div>
-          </div>
-          <div class="scroll11 black res">
-            <div class="scroll-data">
-              <div class="image-div">
-                <img class="image-events img11"
-                  src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FBest%20Manager.png?alt=media&token=8d933234-25e1-4f6f-8a20-d14b8af8995f" />
-              </div>
-              <h1 class="scroll-heading white-color">Best Manager
-                <br>
-                <a href="" class="rules">Rules</a>
+            <div class="scroll10 black res">
+              <div class="scroll-data">
+                <div class="image-div">
+                  <img
+                    class="image-events img10"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FBest%20Manager.png?alt=media&token=8d933234-25e1-4f6f-8a20-d14b8af8995f"
+                  />
+                </div>
 
-              </h1>
-              <p class="para-events">
-                Best Manager is a collection of mind-boggling issues that a manager is likely to confront in the
-                business world. It is a test of your capacity to mix emotion with logic and make judgments. In this
-                gruelling tournament, you will compete against the greatest of the best, who will put your fortitude to
-                the test. "Are you ready?" is the sole question.
-              </p>
+                <h1 class="scroll-heading white-color">
+                  Best Management Team
+                  <br />
+                  <a target=”_blank” href="https://drive.google.com/file/d/1fsJSe6_IsOt14NQqdZlPaXqc0qDy9nZE/view?usp=sharing" class="rules">Rules</a>
+                </h1>
+                <p class="para-events">
+                  Through exhilarating rounds, you may push yourself and boost
+                  your spirit by dealing with business issues and key scenarios.
+                  Don't limit yourself to a single speciality; instead, become a
+                  jack of all crafts and join us for this amazing learning
+                  experience!
+                </p>
+              </div>
+            </div>
+            <div class="scroll11 black res">
+              <div class="scroll-data">
+                <div class="image-div">
+                  <img
+                    class="image-events img11"
+                    src="https://firebasestorage.googleapis.com/v0/b/magnovite-8e7b6.appspot.com/o/Events%2FBest%20Manager.png?alt=media&token=8d933234-25e1-4f6f-8a20-d14b8af8995f"
+                  />
+                </div>
+                <h1 class="scroll-heading white-color">
+                  Best Manager
+                  <br />
+                  <a target=”_blank” href="https://drive.google.com/file/d/1fsJSe6_IsOt14NQqdZlPaXqc0qDy9nZE/view?usp=sharing" class="rules">Rules</a>
+                </h1>
+                <p class="para-events">
+                  Best Manager is a collection of mind-boggling issues that a
+                  manager is likely to confront in the business world. It is a
+                  test of your capacity to mix emotion with logic and make
+                  judgments. In this gruelling tournament, you will compete
+                  against the greatest of the best, who will put your fortitude
+                  to the test. "Are you ready?" is the sole question.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="mba.js"></script>
-  <script>
-    function myFunction(x) {
-      x.classList.toggle("change");
-    }
-  </script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-  <script src="home.js"></script>
-  <script>
-    $(".Click-here").on('click', function () {
-      $(".custom-model-main").addClass('model-open');
-    });
-    $(".close-btn, .bg-overlay").click(function () {
-      $(".custom-model-main").removeClass('model-open');
-    });
-  </script>
-  <script>
-    $(function () {
-      $(".main-content-main").fadeOut(1, function () {
-        $("#loaderofloader").fadeIn(5000, function () {
-          $("#loaderofloader").fadeOut(2000, function () {
-            $(".main-content-main").fadeIn(1000, function () {
-
+    <script src="mba.js"></script>
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+    </script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="home.js"></script>
+    <script>
+      $(".Click-here").on("click", function () {
+        $(".custom-model-main").addClass("model-open");
+      });
+      $(".close-btn, .bg-overlay").click(function () {
+        $(".custom-model-main").removeClass("model-open");
+      });
+    </script>
+    <script>
+      $(function () {
+        $(".main-content-main").fadeOut(1, function () {
+          $("#loaderofloader").fadeIn(5000, function () {
+            $("#loaderofloader").fadeOut(2000, function () {
+              $(".main-content-main").fadeIn(1000, function () {});
             });
           });
         });
       });
-    });
-    $(window)
-      .scroll(function () {
-        let $window = $(window),
-          $body = $("body"),
-          $section = $(".section");
-        let scroll = $window.scrollTop() + $window.height() / 3;
-        $section.each(function () {
-          if (
-            $(this).position().top <= scroll &&
-            $(this).position().top + $(this).height() > scroll
-          ) {
-            $body.removeClass(function (index, css) {
-              return css.match(/(^|\s)color-\s+/g) || [].join(" ");
-            });
-            $(".section").removeClass("active");
-            $(this).addClass("active");
-          }
-        });
-      })
-      .scroll();
-  </script>
-</body>
-
+      $(window)
+        .scroll(function () {
+          let $window = $(window),
+            $body = $("body"),
+            $section = $(".section");
+          let scroll = $window.scrollTop() + $window.height() / 3;
+          $section.each(function () {
+            if (
+              $(this).position().top <= scroll &&
+              $(this).position().top + $(this).height() > scroll
+            ) {
+              $body.removeClass(function (index, css) {
+                return css.match(/(^|\s)color-\s+/g) || [].join(" ");
+              });
+              $(".section").removeClass("active");
+              $(this).addClass("active");
+            }
+          });
+        })
+        .scroll();
+    </script>
+  </body>
 </html>
 
 <!-- 
