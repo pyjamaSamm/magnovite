@@ -1,0 +1,19 @@
+.rules {
+  text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    color: #fff;
+    width: 60px;
+    text-align: center;
+    font-size:16px;
+    border-radius: 10px;
+    border: 1px solid #74C69D;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition:background-image 3s ease-in-out;
+  }
+  .rules:hover{
+    color: #D8F3DC;
+    transition:background-image 3s ease-in-out;
+    box-shadow: 1px 1px #74C69D;
+  }

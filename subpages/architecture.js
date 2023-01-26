@@ -26,15 +26,7 @@ const img7 = document.querySelector(".img7");
 const img = [img1, img2, img3, img4, img5, img6, img7];
 
 
-const rules1 = document.querySelector(".rules1");
-const rules2 = document.querySelector(".rules2");
-const rules3 = document.querySelector(".rules3");
-const rules4 = document.querySelector(".rules4");
-const rules5 = document.querySelector(".rules5");
-const rules6 = document.querySelector(".rules6");
-const rules7 = document.querySelector(".rules7");
 
-const rules = [rules1, rules2, rules3, rules4, rules5, rules6, rules7]
 const half2 = document.querySelector(".half2");
 
 for (let i = 0; i < scroll.length; i++) {
@@ -44,10 +36,8 @@ for (let i = 0; i < scroll.length; i++) {
         for (let j = 0; j < img.length; j++) {
             if (j == i) {
                 img[j].classList.remove("displayoff");
-                rules[j].classList.remove("displayoff")
             } else {
                 img[j].classList.add("displayoff");
-                rules[j].classList.add("displayoff")
             }
         }
     }
