@@ -54,6 +54,15 @@ body {
     margin: 0;
     left: 0;
   }
+ 
+}
+@media (max-width: 300px){
+  body{
+    box-sizing: border-box;
+  }
+  table{
+    box-sizing: border-box;
+  }
 }
 
 .rules h1, h2 {
@@ -234,3 +243,7 @@ border-radius: 50em !important;
 
 .green {
   background-color: #5bbd72;
+}
+.purple {
+  background-color: #564f8a;
+}
