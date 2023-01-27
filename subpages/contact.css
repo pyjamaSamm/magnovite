@@ -484,16 +484,7 @@ hr{
     margin: 0;
 }
 
-body{
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #b8dae3;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+
 a{
     text-decoration: none;
 }
