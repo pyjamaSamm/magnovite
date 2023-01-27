@@ -252,3 +252,14 @@ border-radius: 50em !important;
 .purple {
   background-color: #564f8a;
 }
+.checkbox-icon {
+  margin-right: 15px;
+  /* margin-top: -12.5px; */
+}
+.margin-left {
+  margin-left: 0 !important;
+  margin-bottom: 15px !important;
+}
+.margin-top {
+  margin-top: 25px !important;
+}
