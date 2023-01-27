@@ -193,6 +193,11 @@ hr{
 
 } */
 
+.social a:hover {
+	scale: 89%;
+	transition: .4s;
+}
+
 
 
 
@@ -317,6 +322,10 @@ hr{
 	}
 }
 
+.horizontal{
+    width: 100% !important;
+    
+}
 
 
 
@@ -430,7 +439,9 @@ hr{
 	letter-spacing: 0.75px;
 	color: #52B788;
 	border-radius: 5px;
-	font-family: Roboto;
+	font-family: 'Montserrat', sans-serif;
+    
+    margin-top: 60px;
     
 }
 
@@ -472,6 +483,7 @@ hr{
 	flex-direction: row;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+    
 }
 
 
