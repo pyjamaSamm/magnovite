@@ -193,6 +193,11 @@ hr{
 
 } */
 
+.social a:hover {
+	scale: 89%;
+	transition: .4s;
+}
+
 
 
 
@@ -317,6 +322,10 @@ hr{
 	}
 }
 
+.horizontal{
+    width: 100% !important;
+    
+}
 
 
 
@@ -430,7 +439,9 @@ hr{
 	letter-spacing: 0.75px;
 	color: #52B788;
 	border-radius: 5px;
-	font-family: Roboto;
+	font-family: 'Montserrat', sans-serif;
+    
+    margin-top: 60px;
     
 }
 
@@ -472,6 +483,7 @@ hr{
 	flex-direction: row;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+    
 }
 
 
@@ -484,16 +496,7 @@ hr{
     margin: 0;
 }
 
-body{
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #b8dae3;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+
 a{
     text-decoration: none;
 }
@@ -627,3 +630,21 @@ a{
 }
 
 
+::-webkit-scrollbar {
+	width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+	background-color: #d6dee1;
+	border-radius: 20px;
+	border: 6px solid transparent;
+	background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+	background-color: #a8bbbf;
+  }
