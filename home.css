@@ -848,3 +848,13 @@ a:visited {
   ::-webkit-scrollbar-thumb:hover {
 	background-color: #a8bbbf;
   }
+
+  @media(min-width: 1000px){
+	  @media(min-height: 1900px){
+		  @media(max-width: 1100px){
+			  .magnoLogo{
+				  width: 50vw !important;
+			  }
+		  }
+	  }
+  }
