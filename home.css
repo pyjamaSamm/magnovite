@@ -10,6 +10,7 @@ html {
 }
 
 .navBar {
+
 	/* height: 100px; */
 	background: transparent;
 	display: flex;
@@ -210,13 +211,34 @@ p {
 	transition: .5s !important;
 }
 
-@media(min-width:992px) {
-	.collapse {
-		margin-left: 35vw !important;
 
-	}
 
+
+/* ---------------------navbar adjustment-------------------------- */
+.collapse{
+	padding-left: 63vw;
 }
+@media(min-width: 980px){
+	@media(max-width: 1250px){
+	.collapse{
+		padding-left: 58vw !important;
+	}
+}
+}
+@media(min-width: 1250px){
+	.collapse{
+		padding-left: 68vw;
+	}
+}
+@media(min-width:1592px){
+	.collapse{
+		padding-left: 74vw;
+	}
+}
+/* ---------------------navbar adjustment-------------------------- */
+
+
+
 
 
 .container {
