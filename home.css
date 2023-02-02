@@ -686,12 +686,12 @@ a:visited {
     padding-top: 20%;
 }
 @media(min-width: 1300px){
-    .contentP{
+    .contentP, .brochure{
         font-size: 1.5rem;
     }
 }
 @media(max-width: 420px){
-    .contentP{
+    .contentP, .brochure{
         font-size: 0.8rem;
     }
 }
@@ -879,4 +879,12 @@ a:visited {
 			  }
 		  }
 	  }
+  }
+
+  .brochure{
+	  text-decoration: none;
+	  color: #459670 !important;
+  }
+  .brochure:hover{
+	  color: #74C69D !important;
   }
