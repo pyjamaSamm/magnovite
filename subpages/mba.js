@@ -55,7 +55,7 @@ const img = [
 
 const half2 = document.querySelector(".half2");
 
-console.log(window.innerWidth)
+// console.log(window.innerWidth)
 
 scroll1.addEventListener("touchend", function() {
     
@@ -64,7 +64,7 @@ scroll1.addEventListener("touchend", function() {
 for (let i = 0; i < scroll.length; i++) {
   let x = scroll[i];
   x.onmouseover = function () {
-    console.log("sadjcn");
+    // console.log("sadjcn");
     for (let j = 0; j < img.length; j++) {
       if (j == i) {
         img[j].classList.remove("displayoff");

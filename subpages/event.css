@@ -15,7 +15,7 @@ html {
 	display: flex;
 	justify-content: space-evenly;
 	padding-left: 15%;
-	padding-right: 15%;
+	/* padding-right: 15%; */
 }
 
 .navItems {
@@ -300,13 +300,13 @@ p span {
 	transition: .5s !important;
 }
 
-@media(min-width:992px) {
+/* @media(min-width:992px) {
 	.collapse {
 		margin-left: 35vw !important;
 
 	}
 
-}
+} */
 
 
 .container {
@@ -471,7 +471,7 @@ p span {
 .card:hover .card__overlay {
 	transform: translateY(0);
 }
-
+/* 
 @media(max-width:1203px) {
 	.navBar {
 		padding: 0;
@@ -497,6 +497,59 @@ p span {
 		padding-left: 60vw;
 	}
 }
+ */
+
+/* ---------------- navbar adjustment ------------------------- */
+@media(max-width:1203px) {
+	.navBar {
+		padding: 0;
+	}
+}
+
+@media(max-width:990px) {
+	.navBar {
+		padding: 30vw;
+	}
+}
+
+@media(max-width:850px) {
+	.navBar {
+		padding: 28vw;
+	}
+}
+
+@media(max-width:991px) {
+	.navbar-collapse {
+		margin-top: 150px !important;
+		padding-right: 0;
+		padding-left: 60vw;
+	}
+}
+/* ---------------- navbar adjustment ------------------------- */
+
+
+/* ---------------------navbar adjustment-------------------------- */
+.collapse{
+	padding-left: 63vw;
+}
+@media(min-width: 980px){
+	@media(max-width: 1250px){
+	.collapse{
+		padding-left: 58vw !important;
+	}
+}
+}
+@media(min-width: 1250px){
+	.collapse{
+		padding-left: 68vw;
+	}
+}
+@media(min-width:1592px){
+	.collapse{
+		padding-left: 74vw;
+	}
+}
+/* ---------------------navbar adjustment-------------------------- */
 
 
 

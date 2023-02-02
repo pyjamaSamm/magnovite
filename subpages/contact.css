@@ -278,24 +278,7 @@ hr{
 	background-color: black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media(min-width:992px) {
-	.collapse {
-		margin-left: 35vw !important;
-
-	}
-
-}
+/* ---------------- navbar adjustment ------------------------- */
 @media(max-width:1203px) {
 	.navBar {
 		padding: 0;
@@ -314,13 +297,15 @@ hr{
 	}
 }
 
-@media(max-width:767px) {
+@media(max-width:991px) {
 	.navbar-collapse {
 		margin-top: 150px !important;
 		padding-right: 0;
 		padding-left: 60vw;
 	}
 }
+/* ---------------- navbar adjustment ------------------------- */
+
 
 .horizontal{
     width: 100% !important;
@@ -648,3 +633,36 @@ a{
   ::-webkit-scrollbar-thumb:hover {
 	background-color: #a8bbbf;
   }
+
+
+/* ---------------------navbar adjustment-------------------------- */
+.collapse{
+	padding-left: 63vw;
+}
+@media(min-width: 980px){
+	@media(max-width: 1250px){
+	.collapse{
+		padding-left: 58vw !important;
+	}
+}
+}
+@media(min-width: 1250px){
+	.collapse{
+		padding-left: 68vw;
+	}
+}
+@media(min-width:1592px){
+	.collapse{
+		padding-left: 74vw;
+	}
+}
+/* ---------------------navbar adjustment-------------------------- */
+
+
+.content a{
+    text-decoration: none;
+    color: #86ecb9;
+}
+.content a:hover{
+    color: #86ecb9;
+}

@@ -32,7 +32,6 @@ const half2 = document.querySelector(".half2");
 for (let i = 0; i < scroll.length; i++) {
     let x = scroll[i];
     x.onmouseover = function () {
-        console.log("sadjcn");
         for (let j = 0; j < img.length; j++) {
             if (j == i) {
                 img[j].classList.remove("displayoff");
