@@ -15,7 +15,7 @@
 	display: flex;
 	justify-content: space-evenly;
 	padding-left: 65%;
-	padding-right: 15%;
+	/* padding-right: 15%; */
 	z-index: 4;
 }
 
