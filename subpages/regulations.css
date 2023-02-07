@@ -283,3 +283,12 @@ border-radius: 50em !important;
   ::-webkit-scrollbar-thumb:hover {
 	background-color: #a8bbbf;
   }
+
+  .brochure{
+	  text-decoration: none;
+    color: #459670 !important;
+  }
+  .brochure:hover{
+    color: #74C69D !important;
+    transition: .5s;
+  }
