@@ -131,19 +131,20 @@
           }
         } else if (Math.abs(getDistance(target, points[i])) < 20000) {
           if(window.innerWidth>=1600){
-            points[i].active = 0.02;
+            points[i].active = 0.2;
+            //points[i].active = 0.02;
             // points[i].circle.active = 0.9;
           }else{
             points[i].active = 0.009;
             // points[i].circle.active = 0.3;
             // points[i].active = 0.1;
-            points[i].circle.active = 0.02;
+            //points[i].circle.active = 0.2;
           }
         } else if (Math.abs(getDistance(target, points[i])) < 40000) {
           if (window.innerWidth >= 1600) {
-            points[i].active = 0.09;
+            // points[i].active = 0.09;
             // points[i].circle.active = 0.1;
-            points[i].circle.active = 0.1;
+            points[i].circle.active = 0.2;
           }
           else {
             points[i].active = 0.02;
@@ -156,8 +157,8 @@
             points[i].circle.active = 0.3;
           }
         } else {
-          points[i].active = 0;
-          // points[i].circle.active = 0;
+          // points[i].active = 0.2;
+          points[i].circle.active = 0.1;
         }
 
         drawLines(points[i]);
