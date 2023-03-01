@@ -831,6 +831,8 @@ a:visited {
 	flex-wrap: wrap;
 	padding-left: 20px;
 	padding-right: 20px;
+	align-items: center;
+	justify-content: center;
 }
 
 .avatarDiv {
